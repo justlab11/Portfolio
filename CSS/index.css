@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #F0EAD6;
   margin: 0;
   padding: 0px;
   height: 100%;
@@ -123,15 +123,15 @@ h1 {
 }
 
 #active {
-  color: #FFFFFF;
-  border-top: 3px solid #FFFFFF;
-  border-bottom: 3px solid #FFFFFF;
+  color: #F0EAD6;
+  border-top: 3px solid #F0EAD6;
+  border-bottom: 3px solid #F0EAD6;
   transition: color .3s, background-color .3s;
 }
 
 #active:hover {
   color: #292c34;
-  background-color: rgba(255, 255, 255, 1)
+  background-color: rgb(240, 234, 214)
 }
 
 #title {
@@ -170,9 +170,9 @@ h1 {
   width: 90%;
   height: 90%;
   background-color: #fff;
-  transition: box-shadow .2s, color .1s;
-  -webkit-box-shadow: 0px 0px 10px #333;
-        box-shadow: 0px 0px 10px #333;
+  transition: box-shadow .2s, color .1s, background-color .1s;
+  -webkit-box-shadow: 0px 0px 15px #333;
+        box-shadow: 0px 0px 15px #333;
   text-align: center;
   text-decoration: none;
   color: #292c34;
@@ -180,8 +180,8 @@ h1 {
 
 .home-links:hover {
   /* background-image: linear-gradient(45deg, #B8E0FF , #1C81D5); */
-  background-image: linear-gradient(135deg, #72edf2 , #5151e5);
-
+  /* background-image: linear-gradient(135deg, #72edf2 , #5151e5); */
+  background-color: #292c34;
   box-shadow: 0px 0px 0px #333;
   color: #FFF
 }
