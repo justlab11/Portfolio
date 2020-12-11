@@ -100,38 +100,34 @@ h1 {
 }
 
 .sidebtn {
-  width: 90%;
+  width: 100%;
   height: 60px;
-  margin-left: 5%;
+  margin-left: 0%;
   margin-bottom: 10px;
   margin-top: 10px;
   outline: none;
   border: none;
-  color: #B8E0FF;
+  color: #F0EAD6;
   text-align: center;
   font-weight: bold;
   font-size: 14pt;
-  border-top: 3px solid #B8E0FF;
-  border-bottom: 3px solid #B8E0FF;
+  border-top: 3px solid #F0EAD6;
+  border-bottom: 3px solid #F0EAD6;
   background-color: rgba(0,0,0,0);
-  transition: color .3s, background-color .3s;
+  transition: color .3s, background-color .1s;
 }
 
 .sidebtn:hover {
-  color: #111;
-  background-color: rgba(184, 224, 255, 1);
+  /* color: #111; */
+  background-color: #4a4f5e;
 }
 
 #active {
-  color: #F0EAD6;
+  color: #292c34;
+  background-color: rgb(240, 234, 214);
   border-top: 3px solid #F0EAD6;
   border-bottom: 3px solid #F0EAD6;
   transition: color .3s, background-color .3s;
-}
-
-#active:hover {
-  color: #292c34;
-  background-color: rgb(240, 234, 214)
 }
 
 #title {
@@ -189,5 +185,5 @@ h1 {
 .home-links > p {
   padding-top: 50px;
   margin: 0 50px 0 50px;
-  font-size: 16pt;
+  font-size: 18pt;
 }
